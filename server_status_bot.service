@@ -1,0 +1,8 @@
+[Unit]
+Description=Server status bot
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/server_status_bot
+ExecStart=%h/server_status_bot/start_bot.sh

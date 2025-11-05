@@ -1,0 +1,11 @@
+[Unit]
+Description=Run server_status_bot every 2 minutes
+
+[Timer]
+OnBootSec=30s
+OnUnitActiveSec=2min
+Unit=server_status_bot.service
+Persistent=true
+
+[Install]
+WantedBy=timers.target
