@@ -39,7 +39,7 @@ server_status_bot/
 
 ```bash
 git clone https://github.com/vovaanich/server-status-bot.git
-cd server_status_bot
+cd cd server-status-bot
 ```
 
 ### 2. Создаем виртуальное окружение и устанавливаем зависимости
