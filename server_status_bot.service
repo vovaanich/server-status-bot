@@ -4,5 +4,5 @@ After=network.target
 
 [Service]
 Type=oneshot
-WorkingDirectory=%h/server_status_bot
-ExecStart=%h/server_status_bot/start_bot.sh
+WorkingDirectory=%h/server-status-bot
+ExecStart=%h/server-status-bot/start_bot.sh
