@@ -42,10 +42,10 @@ def build_message():
     load1, load5, load15 = get_loadavg()
     mem = get_memory()
     lines = [
-        f"✅ Status сервера: {HOSTNAME}",
-        f"⏰ Time: {tnow}",
-        f"💻 CPU: {cpu:.1f}%  (load: {load1:.2f}, {load5:.2f}, {load15:.2f})",
-        f"🖥 RAM: {format_bytes(mem['used'])} / {format_bytes(mem['total'])} ({mem['percent']}%)"
+        f"*Status сервера:* {HOSTNAME}",
+        f"*Time:* {tnow}",
+        f"*CPU:* {cpu:.1f}%  (load: {load1:.2f}, {load5:.2f}, {load15:.2f})",
+        f"*RAM:* {format_bytes(mem['used'])} / {format_bytes(mem['total'])} ({mem['percent']}%)"
     ]
     return "\n".join(lines)
 
