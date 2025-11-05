@@ -3,6 +3,8 @@ Description=Server status bot
 After=network.target
 
 [Service]
-Type=oneshot
+Type=simple
 WorkingDirectory=%h/server-status-bot
 ExecStart=%h/server-status-bot/start_bot.sh
+Restart=on-failure
+EnvironmentFile=%h/server-status-bot/.env
