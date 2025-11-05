@@ -38,7 +38,7 @@ server_status_bot/
 ### 1. Клонируем репозиторий
 
 ```bash
-git clone https://github.com/USERNAME/server_status_bot.git
+git clone https://github.com/vovaanich/server-status-bot.git
 cd server_status_bot
 ```
 
